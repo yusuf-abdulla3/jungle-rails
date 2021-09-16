@@ -1,3 +1,8 @@
+<% if enhanced_cart.length() == 0 %>
+<div class="alert alert-primary" role="alert"> 
+This cart is empty. Please return to the <%= link_to 'home', :root %> page to continue shopping! 
+</div>
+<% else %>
 <section class="cart-show">
 
   <header class="page-header">
@@ -50,3 +55,5 @@
   </div>
 
 </section>
+
+<% end %>
