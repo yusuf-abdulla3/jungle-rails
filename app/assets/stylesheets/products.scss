@@ -60,6 +60,19 @@ main section.categories-show {
         }
       }
 
+      .sold-out {
+        background-color: red;
+        color: white;
+        position: relative;
+        left: -15px;
+        padding: 10px;
+        padding-top: 17px;
+        border-top-left-radius: 4px;
+        border-bottom-right-radius: 20px;
+        font-size: 1em;
+        opacity: 65%;
+      }
+
     }
   }
 }
