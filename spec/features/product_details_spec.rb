@@ -24,7 +24,7 @@ RSpec.feature "Navigate to product details from home page", type: :feature, js: 
 
     # DEBUG
     sleep 1
-    save_screenshot
+    # save_screenshot
 
     # VERIFY
     expect(page).to have_css 'article.product-detail'
